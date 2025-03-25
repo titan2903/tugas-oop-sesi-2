@@ -142,6 +142,10 @@ int main() {
         cout << "\nPembayaran dompet digital tidak valid" << endl;
     }
 
+    payment1->refundPayment();
+    payment2->refundPayment();
+    payment3->refundPayment();
+
     delete payment1;
     delete payment2;
     delete payment3;
